@@ -9,12 +9,29 @@ body {
   border: 1px solid black;
   height: 200px;
 }
+.nav.navbar-nav a {
+  color: #031b4e;
+}
 .navbar.navbar-default {
   margin-bottom: 0;
 }
 .navbar img {
   width: 150px;
   margin-top: -4px;
+}
+.nav.navbar-nav.navbar-right button:nth-child(odd) {
+  border: none;
+  background-color: transparent;
+  color: #031b4e;
+  font-size: 1rem;
+}
+.nav.navbar-nav.navbar-right button:last-child{
+  border: 1px solid #006aff;
+  color: #006aff;
+}
+.nav.navbar-nav.navbar-right a, .nav.navbar-nav li a {
+  color: #031b4e;
+  font-size: 1rem;
 }
 header .navbar-default .navbar-toggle {
    border: none;
@@ -29,11 +46,8 @@ header .navbar-default .navbar-toggle .icon-bar {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
-  position: relative;
-
 }
-.jumbotron input, button {
+.jumbotron input, .jumbotron button {
   display: block;
   position: relative;
   left: 50%;
@@ -58,6 +72,7 @@ header .navbar-default .navbar-toggle .icon-bar {
   border: none;
   color: gray;
   box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 .jumbotron h1 {
   color: white;
@@ -68,18 +83,26 @@ header .navbar-default .navbar-toggle .icon-bar {
 .jumbotron form h1:first-child {
   color: #031b4e;
   padding-top: 20px;
+  font-size: 3rem;
 }
 .jumbotron form h1:nth-child(2) {
   color: #006aff;
   margin-top: 10px;
+  font-size: 2rem;
 }
 .jumbotron form p {
   color: #031b4e;
   padding-top: 10px;
+  padding-bottom: 20px;
   font-size: 12px;
 }
 .jumbotron form {
   background-color: white;
   border-radius: 10px;
-  height: 50%;
+  text-align: center;
+}
+.googlesvg {
+  height: 20px;
+  position: absolute;
+  left: 2%;
 }
