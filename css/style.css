@@ -1,7 +1,10 @@
 html {
   font-family: "Sailec-Light";
+  font-size: 100%;
 }
-
+body {
+  font-size: 1rem;
+}
 .debug [class*="col-"] {
   border: 1px solid black;
   height: 200px;
@@ -11,10 +14,14 @@ html {
 }
 .navbar img {
   width: 150px;
+  margin-top: -4px;
 }
-.navbar-default .navbar-toggle {
-  color: blue;
-  border-color: none;
+header .navbar-default .navbar-toggle {
+   border: none;
+   color: #006aff;
+}
+header .navbar-default .navbar-toggle .icon-bar {
+  background-color: #006aff;
 }
 .jumbotron {
   background-image: url(../img/background-bg.svg);
@@ -22,8 +29,57 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
+  position: relative;
+
+}
+.jumbotron input, button {
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  border-color: none;
+  width: 80%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.jumbotron input {
+  padding: 10px;
+}
+.jumbotron .create-account {
+  background-color: #006aff;
+  color: white;
+  padding: 5px;
+}
+.jumbotron .sign-up {
+  padding: 5px;
+  background-color: white;
+  border: none;
+  color: gray;
+  box-shadow: 4px 4px 1px rgba(0, 0, 0, 0.1);
+}
+.jumbotron h1 {
   color: white;
 }
-.white-text {
-  color: white;
+.jumbotron p {
+  color: lightgray;
+}
+.jumbotron form h1:first-child {
+  color: #031b4e;
+  padding-top: 20px;
+}
+.jumbotron form h1:nth-child(2) {
+  color: #006aff;
+  margin-top: 10px;
+}
+.jumbotron form p {
+  color: #031b4e;
+  padding-top: 10px;
+  font-size: 12px;
+}
+.jumbotron form {
+  background-color: white;
+  border-radius: 10px;
+  height: 50%;
 }
