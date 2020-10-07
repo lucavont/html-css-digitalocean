@@ -2,3 +2,24 @@
   border: 1px solid black;
   height: 200px;
 }
+.navbar.navbar-default {
+  margin-bottom: 0;
+}
+.navbar img {
+  width: 150px;
+}
+.navbar-header .navbar-toggle {
+  color: blue;
+  border-color: none;
+}
+.jumbotron {
+  background-image: url(../img/background-bg.svg);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.white-text {
+  color: white;
+}
