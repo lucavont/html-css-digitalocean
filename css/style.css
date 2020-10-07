@@ -1,3 +1,7 @@
+html {
+  font-family: "Sailec-Light";
+}
+
 .debug [class*="col-"] {
   border: 1px solid black;
   height: 200px;
@@ -8,7 +12,7 @@
 .navbar img {
   width: 150px;
 }
-.navbar-header .navbar-toggle {
+.navbar-default .navbar-toggle {
   color: blue;
   border-color: none;
 }
