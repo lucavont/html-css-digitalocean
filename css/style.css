@@ -292,8 +292,9 @@ footer {
   padding-bottom: 40px;
 }
 footer img {
-  color: white;
+  filter: invert(0.5) sepia(0) saturate(0) hue-rotate(0deg);
   margin-top: 5px;
+  margin-right: 10px;
 }
 footer ul {
   list-style: none;
