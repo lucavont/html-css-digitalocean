@@ -1,5 +1,5 @@
 html {
-  font-family: "Sailec-Light";
+  font-family: "Sailec-Light", "Sailec-Medium";
   font-size: 100%;
 }
 body {
@@ -46,6 +46,7 @@ header .navbar-default .navbar-toggle .icon-bar {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 0;
 }
 .jumbotron input, .jumbotron button {
   display: block;
@@ -105,4 +106,220 @@ header .navbar-default .navbar-toggle .icon-bar {
   height: 20px;
   position: absolute;
   left: 2%;
+}
+.h1,
+.h4 {
+  color: #031b4e;
+  font-weight: 600;
+}
+.p {
+  color: #2c3e50;
+}
+#sponsors {
+  background-color: #F3F5F9;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#sponsors h4 {
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+#sponsors a {
+  font-weight: 600;
+}
+#deploy-and-scale {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#deploy-and-scale img {
+  margin-top: 20px;
+}
+#deploy-and-scale h1,
+#deploy-and-scale h4 {
+  color: #031b4e;
+  font-weight: 600;
+}
+#deploy-and-scale p {
+  color: #2c3e50;
+}
+#deploy-and-scale a {
+  color: gray;
+  text-decoration: none;
+}
+#deploy-and-scale ul {
+  list-style: none;
+  border-left: 1px solid lightgray;
+  margin-top: 40px;
+}
+#deploy-and-scale .worldsvg {
+  width: 37px;
+}
+#designed-for-dev {
+  background-color: #F3F5F9;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+#designed-for-dev p {
+  margin-top: 20px;
+}
+#designed-for-dev img {
+  width: 80%;
+  margin-top: 80px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-bottom: 20px;
+}
+#designed-for-dev span,
+.dots span {
+  border: 1px solid #006aff;
+  border-radius: 50px;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin-top: 40px;
+}
+#designed-for-dev .container .row .active,
+.dots .active {
+  background-color: #006aff;
+}
+#the-features {
+  padding: 40px 0px;
+}
+#the-features a {
+  text-decoration: none;
+  color: #006aff;
+  font-weight: 600;
+}
+#the-features img {
+  margin-top: 20px;
+}
+#service-world {
+  background-color: rgb(2,0,36);
+  background: linear-gradient(rgba(0,72,197,1) 35%, rgba(9,9,121,1) 100%);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#service-world p {
+  display: inline-block;
+  color: white;
+}
+#service-world a {
+  text-align: right;
+  color: cyan;
+}
+#service-world h2 {
+  padding-bottom: 20px;
+  color: white;
+  font-weight: 600;
+}
+#service-world .first-regions .container
+#service-world .second-regions .container {
+  border-bottom: 1px solid white;
+  margin-top: 10px;
+}
+#service-world .first-regions .container:last-child,
+#service-world .second-regions .container:last-child {
+  border-bottom: none;
+}
+#service-world .second-regions {
+  margin-top: 40px;
+}
+#development {
+  background-color: #F3F5F9;
+  padding-bottom: 40px;
+}
+#development h1 {
+  margin-top: 40px;
+}
+.job,
+.name {
+  color: #031b4e;
+}
+.name {
+  font-weight: 600;
+}
+.job {
+  margin-top: -10px;
+}
+#development a {
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #006aff;
+}
+#development .card-slide {
+  background-color: white;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+#development .card-slide img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+#development .dots {
+  margin-top: 10px;
+}
+#get-started {
+  background-color: rgb(2,0,36);
+  background: linear-gradient(rgba(0,72,197,1) 50%, rgba(9,9,121,1) 100%);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+}
+#get-started h1 {
+  font-weight: 600;
+}
+#get-started button {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  color: #006aff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
+footer {
+  background-color: #031b4e;
+  color: white;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+footer img {
+  color: white;
+  margin-top: 5px;
+}
+footer ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+footer ul a {
+  color: darkgray;
+  font-size: 0.8rem;
+}
+footer ul li {
+  margin-top: 5px;
+}
+footer p:first-child {
+  color: darkgray;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+footer p:last-child {
+  color: gray;
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 5px;
+  font-size: 0.8rem;
+}
+footer h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
 }
