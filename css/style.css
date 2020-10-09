@@ -154,6 +154,7 @@ header .navbar-default .navbar-toggle .icon-bar {
 #deploy-and-scale .worldsvg {
   width: 37px;
 }
+
 #designed-for-dev {
   background-color: #F3F5F9;
   padding-top: 40px;
@@ -170,6 +171,24 @@ header .navbar-default .navbar-toggle .icon-bar {
   left: 50%;
   transform: translate(-50%);
   margin-bottom: 20px;
+}
+#designed-for-dev .left-arrow {
+  left: 40px;
+  top: 50%;
+}
+#designed-for-dev .right-arrow {
+  right: 40px;
+  top: 50%;
+}
+#designed-for-dev .screenshot-1 p {
+  position: absolute;
+  display: inline-block;
+  color: #031b4e;
+  font-size: 2rem;
+  font-weight: 800;
+}
+#designed-for-dev .screenshot-1 {
+  position: relative;
 }
 #designed-for-dev span,
 .dots span {
@@ -214,7 +233,7 @@ header .navbar-default .navbar-toggle .icon-bar {
   color: white;
   font-weight: 600;
 }
-#service-world .first-regions .container
+#service-world .first-regions .container,
 #service-world .second-regions .container {
   border-bottom: 1px solid white;
   margin-top: 10px;
@@ -223,8 +242,8 @@ header .navbar-default .navbar-toggle .icon-bar {
 #service-world .second-regions .container:last-child {
   border-bottom: none;
 }
-#service-world .second-regions {
-  margin-top: 40px;
+#service-world .row {
+  border-bottom: 1px solid white;
 }
 #development {
   background-color: #F3F5F9;
